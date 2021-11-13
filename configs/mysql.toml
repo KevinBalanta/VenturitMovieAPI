@@ -1,0 +1,12 @@
+[default]
+host = "database-1.cmy9dr9hlhqq.us-east-2.rds.amazonaws.com"
+port = "3306"
+database = "EchoGo"
+user = "admin"
+password = "adminadmin"
+charset = "utf8"
+sql_log = false
+
+MaxIdleConns = 10
+MaxOpenConns = 100
+
